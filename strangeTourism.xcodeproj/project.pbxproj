@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C203E812A94A97300E660B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C203E802A94A97300E660B0 /* GoogleService-Info.plist */; };
+		5C203E842A94AD3A00E660B0 /* PhoneAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203E832A94AD3A00E660B0 /* PhoneAuth.swift */; };
+		5C203E972A94BEE500E660B0 /* CocoaTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203E962A94BEE500E660B0 /* CocoaTextField */; };
+		5C22E8BB2A9383DF007C46B3 /* FeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22E8BA2A9383DF007C46B3 /* FeedsModel.swift */; };
+		5C543B212A8CD0ED00284102 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C543B202A8CD0ED00284102 /* Application.swift */; };
+		5C543B232A8CE36B00284102 /* Google_SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C543B222A8CE36B00284102 /* Google_SignIn.swift */; };
+		5C598F442A8E47AB00E8F8F3 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C598F432A8E47AB00E8F8F3 /* SVGKit */; };
+		5C598F462A8E47AB00E8F8F3 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C598F452A8E47AB00E8F8F3 /* SVGKitSwift */; };
+		5C8614682A8F883F006CDA07 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8614672A8F883F006CDA07 /* CustomColor.swift */; };
+		5C86146C2A8F8941006CDA07 /* PlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86146B2A8F8941006CDA07 /* PlanScreen.swift */; };
+		5C934EA82A854D820064455E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C934EA72A854D820064455E /* HomePage.swift */; };
+		5CA25BD42A7A4F5500501CC0 /* strangeTourismMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA25BD32A7A4F5500501CC0 /* strangeTourismMobileApp.swift */; };
+		5CA25BD62A7A4F5500501CC0 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA25BD52A7A4F5500501CC0 /* APICall.swift */; };
+		5CA25BD82A7A4F5600501CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA25BD72A7A4F5600501CC0 /* Assets.xcassets */; };
+		5CA25BDB2A7A4F5600501CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA25BDA2A7A4F5600501CC0 /* Preview Assets.xcassets */; };
+		5CA25BE52A7A4F5600501CC0 /* strangeTourismMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA25BE42A7A4F5600501CC0 /* strangeTourismMobileTests.swift */; };
+		5CA25BEF2A7A4F5600501CC0 /* strangeTourismMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA25BEE2A7A4F5600501CC0 /* strangeTourismMobileUITests.swift */; };
+		5CA25BF12A7A4F5600501CC0 /* strangeTourismMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA25BF02A7A4F5600501CC0 /* strangeTourismMobileUITestsLaunchTests.swift */; };
+		5CE1165D2A865E45008E7CE1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE1165C2A865E45008E7CE1 /* FirebaseAuth */; };
+		5CE116602A865E76008E7CE1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE1165F2A865E76008E7CE1 /* GoogleSignIn */; };
+		5CE116622A865E76008E7CE1 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE116612A865E76008E7CE1 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA25BE12A7A4F5600501CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA25BC82A7A4F5500501CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA25BCF2A7A4F5500501CC0;
+			remoteInfo = pmToolMobile;
+		};
+		5CA25BEB2A7A4F5600501CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA25BC82A7A4F5500501CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA25BCF2A7A4F5500501CC0;
+			remoteInfo = pmToolMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C203E802A94A97300E660B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C203E832A94AD3A00E660B0 /* PhoneAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuth.swift; sourceTree = "<group>"; };
+		5C22E8BA2A9383DF007C46B3 /* FeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsModel.swift; sourceTree = "<group>"; };
+		5C543B1A2A8CC9F900284102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C543B202A8CD0ED00284102 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		5C543B222A8CE36B00284102 /* Google_SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_SignIn.swift; sourceTree = "<group>"; };
+		5C8614672A8F883F006CDA07 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		5C86146B2A8F8941006CDA07 /* PlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanScreen.swift; sourceTree = "<group>"; };
+		5C934EA72A854D820064455E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		5CA25BD02A7A4F5500501CC0 /* strangeTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strangeTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA25BD32A7A4F5500501CC0 /* strangeTourismMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strangeTourismMobileApp.swift; sourceTree = "<group>"; };
+		5CA25BD52A7A4F5500501CC0 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		5CA25BD72A7A4F5600501CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA25BDA2A7A4F5600501CC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CA25BE02A7A4F5600501CC0 /* strangeTourismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strangeTourismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA25BE42A7A4F5600501CC0 /* strangeTourismMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strangeTourismMobileTests.swift; sourceTree = "<group>"; };
+		5CA25BEA2A7A4F5600501CC0 /* strangeTourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strangeTourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA25BEE2A7A4F5600501CC0 /* strangeTourismMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strangeTourismMobileUITests.swift; sourceTree = "<group>"; };
+		5CA25BF02A7A4F5600501CC0 /* strangeTourismMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strangeTourismMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA25BCD2A7A4F5500501CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE116622A865E76008E7CE1 /* GoogleSignInSwift in Frameworks */,
+				5CE1165D2A865E45008E7CE1 /* FirebaseAuth in Frameworks */,
+				5C598F462A8E47AB00E8F8F3 /* SVGKitSwift in Frameworks */,
+				5C598F442A8E47AB00E8F8F3 /* SVGKit in Frameworks */,
+				5C203E972A94BEE500E660B0 /* CocoaTextField in Frameworks */,
+				5CE116602A865E76008E7CE1 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BDD2A7A4F5600501CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BE72A7A4F5600501CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C203E822A94AD2100E660B0 /* PhoneAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5C203E832A94AD3A00E660B0 /* PhoneAuth.swift */,
+			);
+			path = PhoneAuth;
+			sourceTree = "<group>";
+		};
+		5C22E8B92A9383B8007C46B3 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				5C22E8BA2A9383DF007C46B3 /* FeedsModel.swift */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		5C543B1F2A8CD08D00284102 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5C543B222A8CE36B00284102 /* Google_SignIn.swift */,
+				5C543B202A8CD0ED00284102 /* Application.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5C8614692A8F88D4006CDA07 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				5C86146A2A8F891D006CDA07 /* Plans */,
+				5C8614672A8F883F006CDA07 /* CustomColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		5C86146A2A8F891D006CDA07 /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				5C86146B2A8F8941006CDA07 /* PlanScreen.swift */,
+			);
+			path = Plans;
+			sourceTree = "<group>";
+		};
+		5CA25BC72A7A4F5500501CC0 = {
+			isa = PBXGroup;
+			children = (
+				5C203E822A94AD2100E660B0 /* PhoneAuth */,
+				5C22E8B92A9383B8007C46B3 /* Feeds */,
+				5C8614692A8F88D4006CDA07 /* Color */,
+				5CA25BD22A7A4F5500501CC0 /* strangeTourismMobile */,
+				5CA25BE32A7A4F5600501CC0 /* strangeTourismMobileTests */,
+				5CA25BED2A7A4F5600501CC0 /* strangeTourismMobileUITests */,
+				5CA25BD12A7A4F5500501CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA25BD12A7A4F5500501CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA25BD02A7A4F5500501CC0 /* strangeTourism.app */,
+				5CA25BE02A7A4F5600501CC0 /* strangeTourismTests.xctest */,
+				5CA25BEA2A7A4F5600501CC0 /* strangeTourismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA25BD22A7A4F5500501CC0 /* strangeTourismMobile */ = {
+			isa = PBXGroup;
+			children = (
+				5C203E802A94A97300E660B0 /* GoogleService-Info.plist */,
+				5C543B1F2A8CD08D00284102 /* Components */,
+				5C543B1A2A8CC9F900284102 /* Info.plist */,
+				5CA25BD32A7A4F5500501CC0 /* strangeTourismMobileApp.swift */,
+				5CA25BD52A7A4F5500501CC0 /* APICall.swift */,
+				5CA25BD72A7A4F5600501CC0 /* Assets.xcassets */,
+				5CA25BD92A7A4F5600501CC0 /* Preview Content */,
+				5C934EA72A854D820064455E /* HomePage.swift */,
+			);
+			path = strangeTourismMobile;
+			sourceTree = "<group>";
+		};
+		5CA25BD92A7A4F5600501CC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CA25BDA2A7A4F5600501CC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CA25BE32A7A4F5600501CC0 /* strangeTourismMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA25BE42A7A4F5600501CC0 /* strangeTourismMobileTests.swift */,
+			);
+			path = strangeTourismMobileTests;
+			sourceTree = "<group>";
+		};
+		5CA25BED2A7A4F5600501CC0 /* strangeTourismMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA25BEE2A7A4F5600501CC0 /* strangeTourismMobileUITests.swift */,
+				5CA25BF02A7A4F5600501CC0 /* strangeTourismMobileUITestsLaunchTests.swift */,
+			);
+			path = strangeTourismMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA25BCF2A7A4F5500501CC0 /* strangeTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA25BF42A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourism" */;
+			buildPhases = (
+				5CA25BCC2A7A4F5500501CC0 /* Sources */,
+				5CA25BCD2A7A4F5500501CC0 /* Frameworks */,
+				5CA25BCE2A7A4F5500501CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = strangeTourism;
+			packageProductDependencies = (
+				5CE1165C2A865E45008E7CE1 /* FirebaseAuth */,
+				5CE1165F2A865E76008E7CE1 /* GoogleSignIn */,
+				5CE116612A865E76008E7CE1 /* GoogleSignInSwift */,
+				5C598F432A8E47AB00E8F8F3 /* SVGKit */,
+				5C598F452A8E47AB00E8F8F3 /* SVGKitSwift */,
+				5C203E962A94BEE500E660B0 /* CocoaTextField */,
+			);
+			productName = pmToolMobile;
+			productReference = 5CA25BD02A7A4F5500501CC0 /* strangeTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA25BDF2A7A4F5600501CC0 /* strangeTourismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA25BF72A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourismTests" */;
+			buildPhases = (
+				5CA25BDC2A7A4F5600501CC0 /* Sources */,
+				5CA25BDD2A7A4F5600501CC0 /* Frameworks */,
+				5CA25BDE2A7A4F5600501CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA25BE22A7A4F5600501CC0 /* PBXTargetDependency */,
+			);
+			name = strangeTourismTests;
+			productName = pmToolMobileTests;
+			productReference = 5CA25BE02A7A4F5600501CC0 /* strangeTourismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CA25BE92A7A4F5600501CC0 /* strangeTourismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA25BFA2A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourismUITests" */;
+			buildPhases = (
+				5CA25BE62A7A4F5600501CC0 /* Sources */,
+				5CA25BE72A7A4F5600501CC0 /* Frameworks */,
+				5CA25BE82A7A4F5600501CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA25BEC2A7A4F5600501CC0 /* PBXTargetDependency */,
+			);
+			name = strangeTourismUITests;
+			productName = pmToolMobileUITests;
+			productReference = 5CA25BEA2A7A4F5600501CC0 /* strangeTourismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA25BC82A7A4F5500501CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5CA25BCF2A7A4F5500501CC0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5CA25BDF2A7A4F5600501CC0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5CA25BCF2A7A4F5500501CC0;
+					};
+					5CA25BE92A7A4F5600501CC0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5CA25BCF2A7A4F5500501CC0;
+					};
+				};
+			};
+			buildConfigurationList = 5CA25BCB2A7A4F5500501CC0 /* Build configuration list for PBXProject "strangeTourism" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA25BC72A7A4F5500501CC0;
+			packageReferences = (
+				5CE1165B2A865E45008E7CE1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5CE1165E2A865E76008E7CE1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				5C598F422A8E47AB00E8F8F3 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				5C203E952A94BEE500E660B0 /* XCRemoteSwiftPackageReference "CocoaTextField" */,
+			);
+			productRefGroup = 5CA25BD12A7A4F5500501CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA25BCF2A7A4F5500501CC0 /* strangeTourism */,
+				5CA25BDF2A7A4F5600501CC0 /* strangeTourismTests */,
+				5CA25BE92A7A4F5600501CC0 /* strangeTourismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA25BCE2A7A4F5500501CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA25BDB2A7A4F5600501CC0 /* Preview Assets.xcassets in Resources */,
+				5CA25BD82A7A4F5600501CC0 /* Assets.xcassets in Resources */,
+				5C203E812A94A97300E660B0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BDE2A7A4F5600501CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BE82A7A4F5600501CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA25BCC2A7A4F5500501CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C543B212A8CD0ED00284102 /* Application.swift in Sources */,
+				5C934EA82A854D820064455E /* HomePage.swift in Sources */,
+				5C8614682A8F883F006CDA07 /* CustomColor.swift in Sources */,
+				5C22E8BB2A9383DF007C46B3 /* FeedsModel.swift in Sources */,
+				5C543B232A8CE36B00284102 /* Google_SignIn.swift in Sources */,
+				5C203E842A94AD3A00E660B0 /* PhoneAuth.swift in Sources */,
+				5C86146C2A8F8941006CDA07 /* PlanScreen.swift in Sources */,
+				5CA25BD62A7A4F5500501CC0 /* APICall.swift in Sources */,
+				5CA25BD42A7A4F5500501CC0 /* strangeTourismMobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BDC2A7A4F5600501CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA25BE52A7A4F5600501CC0 /* strangeTourismMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA25BE62A7A4F5600501CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA25BEF2A7A4F5600501CC0 /* strangeTourismMobileUITests.swift in Sources */,
+				5CA25BF12A7A4F5600501CC0 /* strangeTourismMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA25BE22A7A4F5600501CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA25BCF2A7A4F5500501CC0 /* strangeTourism */;
+			targetProxy = 5CA25BE12A7A4F5600501CC0 /* PBXContainerItemProxy */;
+		};
+		5CA25BEC2A7A4F5600501CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA25BCF2A7A4F5500501CC0 /* strangeTourism */;
+			targetProxy = 5CA25BEB2A7A4F5600501CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CA25BF22A7A4F5600501CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CA25BF32A7A4F5600501CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA25BF52A7A4F5600501CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pmToolMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pmToolMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA25BF62A7A4F5600501CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pmToolMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pmToolMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CA25BF82A7A4F5600501CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strangeTourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/strangeTourism";
+			};
+			name = Debug;
+		};
+		5CA25BF92A7A4F5600501CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strangeTourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/strangeTourism";
+			};
+			name = Release;
+		};
+		5CA25BFB2A7A4F5600501CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pmToolMobile;
+			};
+			name = Debug;
+		};
+		5CA25BFC2A7A4F5600501CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmtoolmobile.pmToolMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pmToolMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA25BCB2A7A4F5500501CC0 /* Build configuration list for PBXProject "strangeTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA25BF22A7A4F5600501CC0 /* Debug */,
+				5CA25BF32A7A4F5600501CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA25BF42A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA25BF52A7A4F5600501CC0 /* Debug */,
+				5CA25BF62A7A4F5600501CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA25BF72A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA25BF82A7A4F5600501CC0 /* Debug */,
+				5CA25BF92A7A4F5600501CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA25BFA2A7A4F5600501CC0 /* Build configuration list for PBXNativeTarget "strangeTourismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA25BFB2A7A4F5600501CC0 /* Debug */,
+				5CA25BFC2A7A4F5600501CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C203E952A94BEE500E660B0 /* XCRemoteSwiftPackageReference "CocoaTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/edgar-zigis/CocoaTextField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		5C598F422A8E47AB00E8F8F3 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5CE1165B2A865E45008E7CE1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5CE1165E2A865E76008E7CE1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C203E962A94BEE500E660B0 /* CocoaTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203E952A94BEE500E660B0 /* XCRemoteSwiftPackageReference "CocoaTextField" */;
+			productName = CocoaTextField;
+		};
+		5C598F432A8E47AB00E8F8F3 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C598F422A8E47AB00E8F8F3 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		5C598F452A8E47AB00E8F8F3 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C598F422A8E47AB00E8F8F3 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		5CE1165C2A865E45008E7CE1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CE1165B2A865E45008E7CE1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5CE1165F2A865E76008E7CE1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CE1165E2A865E76008E7CE1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		5CE116612A865E76008E7CE1 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CE1165E2A865E76008E7CE1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CA25BC82A7A4F5500501CC0 /* Project object */;
+}
